@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="DIANA | психолог. Консультации онлайн и личные встречи в Алматы.">
+<title>DIANA | психолог</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Georgia, serif;
+  background: #f7f2eb;
+  color: #44382f;
+  line-height: 1.7;
+}
+
+header {
+  background: #eee4d8;
+  padding: 22px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.logo {
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+nav a {
+  color: #59483b;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #a17c5b;
+}
+
+.hero {
+  min-height: 480px;
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(145deg, #eee4d8, #f7f2eb);
+}
+
+.hero h1 {
+  font-size: 46px;
+  font-weight: normal;
+  line-height: 1.2;
+  max-width: 750px;
+}
+
+.hero p {
+  font-size: 19px;
+  margin-top: 22px;
+  max-width: 600px;
+}
+
+.button {
+  display: inline-block;
+  background: #796452;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-top: 25px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #59483b;
+  transform: translateY(-2px);
+}
+
+section {
+  padding: 75px 8%;
+  text-align: center;
+  scroll-margin-top: 20px;
+}
+
+h2 {
+  font-size: 34px;
+  font-weight: normal;
+  margin-bottom: 25px;
+}
+
+.card {
+  background: #fffaf4;
+  padding: 30px;
+  margin: 18px auto;
+  max-width: 650px;
+  border-radius: 16px;
+  box-shadow: 0 5px 25px #0000000b;
+}
+
+.card h3 {
+  font-size: 23px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #eee4d8;
+  color: #59483b;
+}
+
+@media (max-width: 600px) {
+  header {
+    justify-content: center;
+  }
+
+  .logo {
+    text-align: center;
+    font-size: 21px;
+  }
+
+  nav {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .hero {
+    padding: 75px 20px;
+    min-height: 400px;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  .hero p {
+    font-size: 17px;
+  }
+
+  section {
+    padding: 55px 6%;
+  }
+
+  h2 {
+    font-size: 29px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">DIANA | психолог</div>
+
+  <nav>
+    <a href="#about">Обо мне</a>
+    <a href="#services">Консультации</a>
+    <a href="#games">Игры</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+</header>
+
+<main>
+
+<div class="hero">
+  <h1>Пространство, где вас услышат</h1>
+
+  <p>
+    Иногда самое важное — остановиться,
+    прислушаться к себе и найти свой путь.
+  </p>
+
+  <a class="button"
+     href="https://api.whatsapp.com/send?phone=77078252610"
+     target="_blank"
+     rel="noopener noreferrer">
+    Записаться на консультацию
+  </a>
+</div>
+
+<section id="about">
+  <h2>Обо мне</h2>
+
+  <div class="card">
+    <p>Здравствуйте! Меня зовут Диана.</p>
+
+    <p>
+      Я создаю пространство доверия,
+      поддержки и бережного отношения
+      к каждому человеку.
+    </p>
+
+    <p>
+      Здесь вы можете узнать больше обо мне
+      и моём подходе к работе.
+    </p>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Консультации</h2>
+
+  <div class="card">
+    <h3>Онлайн-консультация</h3>
+    <p>Встреча через интернет в удобном для вас месте.</p>
+  </div>
+
+  <div class="card">
+    <h3>Личные встречи</h3>
+    <p>Личные встречи в Алматы.</p>
+  </div>
+</section>
+
+<section id="games">
+  <h2>Игры</h2>
+
+  <div class="card">
+    <p>Информация об играх скоро появится.</p>
+    <p>Здесь можно будет разместить описание и фотографии.</p>
+  </div>
+</section>
+
+<section id="contacts">
+  <h2>Контакты</h2>
+
+  <div class="card">
+    <p>Алматы, Казахстан</p>
+    <p>Онлайн и личные встречи</p>
+
+    <a class="button"
+       href="https://api.whatsapp.com/send?phone=77078252610"
+       target="_blank"
+       rel="noopener noreferrer">
+      Написать в WhatsApp
+    </a>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  DIANA | психолог<br>
+  Алматы · Казахстан
+</footer>
+
+</body>
+  </html>
+  
